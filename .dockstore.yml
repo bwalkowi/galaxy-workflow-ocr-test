@@ -1,0 +1,5 @@
+version: 1.2
+workflows:
+  - name: ocr-dasch-poc-workflow
+    subclass: GALAXY
+    primaryDescriptorPath: /galaxy-workflow-ocr-test-DaSCH.ga
