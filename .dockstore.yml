@@ -1,5 +1,11 @@
 version: 1.2
 workflows:
-  - name: ocr-dasch-poc-workflow
-    subclass: GALAXY
-    primaryDescriptorPath: /galaxy-workflow-ocr-test-DaSCH.ga
+- name: main
+  subclass: Galaxy
+  publish: true
+  primaryDescriptorPath: /galaxy-workflow-ocr-test-DaSCH.ga
+  authors:
+  - name: Johannes Nussbaum
+    orcid: 0000-0002-1281-9609
+  - name: Daniela Schneider
+    orcid: 0000-0001-9536-5587
